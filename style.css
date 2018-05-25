@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
 }
 
-#root h1 {
+h1 {
     height: 1.5em;
     text-align: center;
     font-size: 4em;
@@ -42,5 +42,17 @@ body {
 #question {
     font-family: 'Kavivanar', cursive;
     font-size: 2em;
-    color: black;
+    color: white;
+    box-sizing: content-box;
+}
+
+#box-1 {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.box-3 {
+    position: relative;
+    text-align: center;
+    justify-content: center;
 }
