@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
 </head>
+
 <body>
+    <div id="root">
+        <h1>Caeser Cipher</h1>
+        <div id="formulario">
+            <form action="">
+                <div>
+                    <label for="position" id="question">¿Cuantas posiciones desea desplazar el cifrado?<abbr title="required">*</abbr></label><br/>
+                    <input id="position" type="number" name="position" placeholder='Ingrese valor'><br/>
+                </div>
+                <div>
+                    <textarea name="primerMensaje" id="" cols="60" rows="7" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <div>
+                    <textarea name="segundoMensaje" id="" cols="60" rows="7"></textarea>
+                </div>
+                <div>
+                    <button type="button" class="boton" id="encode">Cifrar</button>
+                    <button type="button" class="boton" id="decode">Descifrar</button>
+                    <button type="reset" class="boton" id="clear">Borrar</button>
+                </div>
+            </form>
+        </div>
 
-  <div id="root"></div>
-
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+    </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
