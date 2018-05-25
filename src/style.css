@@ -1,1 +1,46 @@
 /* Acá va tu código */
+
+body {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*que no tenga movimientos*/
+    background-position: center;
+    position: relative;
+    border: 0;
+}
+
+#root {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#root h1 {
+    height: 1.5em;
+    text-align: center;
+    font-size: 4em;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*line-height: 2em;*/
+    color: white;
+    top: 12.5em;
+    font-family: 'Kavivanar', cursive;
+    margin: 0;
+}
+
+.boton {
+    background-color: floralwhite;
+    padding: 10px 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    font-family: 'Kavivanar', cursive;
+    display: inline-block;
+}
+
+#question {
+    font-family: 'Kavivanar', cursive;
+    font-size: 2em;
+    color: black;
+}
