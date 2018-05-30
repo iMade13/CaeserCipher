@@ -46,13 +46,34 @@ h1 {
     box-sizing: content-box;
 }
 
-#box-1 {
+#boxOne {
     padding-bottom: 40px;
     text-align: center;
 }
 
-.box-3 {
-    position: relative;
+.boxTwo {
     text-align: center;
-    justify-content: center;
+}
+
+#textCipher {
+    width: 65vh;
+    height: 14vh
+}
+
+
+/* .encode {
+    float: left;
+}
+
+.decode {
+    float: left;
+}
+
+.clear {
+    float: left;
+} */
+
+#botones {
+    text-align: center;
+    margin-top: 240px;
 }
