@@ -13,19 +13,19 @@
         <h1>Caeser Cipher</h1>
         <div id="formulario">
             <form action="">
-                <div id='box-1'>
-                    <label for="position" id="question">¿Cuantas posiciones desea desplazar el cifrado?<abbr title="required">*</abbr></label><br/>
-                    <input id="position" type="number" name="position" placeholder='Ingrese valor'><br/>
+                <div id="boxOne">
+                    <label for="" id="question">¿Cuantas posiciones desea desplazar el cifrado?<abbr title="required">*</abbr></label><br/>
+                    <input id="offset" type="number" name="offset" placeholder="Ingrese valor" value=""><br/>
                 </div>
-                <div class="box-3">
-                    <textarea name="primerMensaje" id="" cols="60" rows="7" placeholder="Ingrese su mensaje"></textarea>
+                <div class="boxTwo">
+                    <input type="text" name="message" id="message" placeholder="Ingrese su mensaje"></textarea>
                 </div>
-                <div class="box-3">
-                    <textarea name="segundoMensaje" id="" cols="60" rows="7"></textarea>
+                <div class="boxThree">
+                    <span id="result"></span>
                 </div>
-                <div>
-                    <button type="button" class="boton" id="encode">Cifrar</button>
-                    <button type="button" class="boton" id="decode">Descifrar</button>
+                <div id="botones">
+                    <button onclick="encode()" type="submit" class="boton" id="encode">Cifrar</button>
+                    <button onclick="decode()" type="submit" class="boton" id="decode">Descifrar</button>
                     <button type="reset" class="boton" id="clear">Borrar</button>
                 </div>
             </form>
