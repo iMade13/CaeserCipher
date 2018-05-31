@@ -20,23 +20,25 @@ h1 {
     height: 1.5em;
     text-align: center;
     font-size: 4em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     /*line-height: 2em;*/
-    color: black;
+    color: #07BEB8;
     top: 12.5em;
     font-family: 'Rancho', cursive;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .boton {
-    background-color: floralwhite;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 40px;
-    color: black;
+    color: #07BEB8;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.3em;
     font-family: 'Crushed', cursive;
     display: inline-block;
+    border-radius: 0.5em;
 }
 
 #question {
@@ -47,35 +49,42 @@ h1 {
 }
 
 #boxOne {
-    padding-bottom: 40px;
     text-align: center;
+    height: 16vh;
+    margin-top: 5vh;
 }
 
 #offset {
-    border-radius: 2em;
-    width: 15vw;
-    height: 5vh;
-    text-align: center;
+    margin-top: 20px;
 }
 
 #boxTwo {
     text-align: center;
 }
 
-#str {
+#message {
     width: 65vh;
-    height: 14vh
+    height: 14vh;
+    border-radius: 0.6em;
 }
 
 #result {
-    float: left;
-    width: 65vh;
-    height: 14vh;
     text-align: center;
     color: white;
+    font-family: 'Rancho', cursive;
+    font-size: 2em;
 }
 
 #botones {
     text-align: center;
-    margin-top: 240px;
+    margin-top: 60px;
+}
+
+#boxThree {
+    width: 40vw;
+    height: 20vh;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 25rem;
 }
