@@ -22,9 +22,9 @@ h1 {
     font-size: 4em;
     background-color: rgba(0, 0, 0, 0.5);
     /*line-height: 2em;*/
-    color: white;
+    color: black;
     top: 12.5em;
-    font-family: 'Kavivanar', cursive;
+    font-family: 'Rancho', cursive;
     margin: 0;
 }
 
@@ -34,13 +34,13 @@ h1 {
     color: black;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 0.8em;
-    font-family: 'Kavivanar', cursive;
+    font-size: 0.9em;
+    font-family: 'Crushed', cursive;
     display: inline-block;
 }
 
 #question {
-    font-family: 'Kavivanar', cursive;
+    font-family: 'Rancho', cursive;
     font-size: 2em;
     color: white;
     box-sizing: content-box;
@@ -51,27 +51,22 @@ h1 {
     text-align: center;
 }
 
-.boxTwo {
+#boxTwo {
     text-align: center;
 }
 
-#textCipher {
+#str {
     width: 65vh;
     height: 14vh
 }
 
-
-/* .encode {
+#result {
     float: left;
+    width: 65vh;
+    height: 14vh;
+    text-align: center;
+    color: white;
 }
-
-.decode {
-    float: left;
-}
-
-.clear {
-    float: left;
-} */
 
 #botones {
     text-align: center;
