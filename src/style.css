@@ -55,20 +55,28 @@ h1 {
     text-align: center;
 }
 
-#str {
+#message {
     width: 65vh;
     height: 14vh
 }
 
 #result {
-    float: left;
-    width: 65vh;
-    height: 14vh;
     text-align: center;
     color: white;
+    font-family: 'Rancho', cursive;
+    font-size: 2em;
 }
 
 #botones {
     text-align: center;
-    margin-top: 240px;
+    margin-top: 60px;
+}
+
+#boxThree {
+    width: 40vw;
+    height: 20vh;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 25rem;
 }
