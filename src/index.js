@@ -1,12 +1,12 @@
 // /* Acá va tu código */ 
 
 document.getElementById("encode").addEventListener("click", () => {
-    const offset = document.getElementById('offset').value;
     const message = document.getElementById('message').value;
-    document.getElementById('result').innerHTML = window.cipher.encode(offset, message);
+    const offset = document.getElementById('offset').value;
+    document.getElementById('result').innerHTML = cipher.encode(message, offset);
 });
 document.getElementById("decode").addEventListener("click", () => {
-    const offset = document.getElementById('offset').value;
     const message = document.getElementById('message').value;
-    document.getElementById('result').innerHTML = window.cipher.decode(offset, message);
+    const offset = document.getElementById('offset').value;
+    document.getElementById('result').innerHTML = cipher.decode(message, offset);
 });
