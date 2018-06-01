@@ -1,6 +1,11 @@
 # CIFRADO CESAR
 
-Está aplicación web en primer lugar le solicita al usuario la cantidad de posiciones que desea cifrar/descifrar su respectivo mensaje. En una caja de texto el usuario debo ingresar lo que desea encriptar  
+    Está aplicación web en primer lugar le solicita al usuario la cantidad de posiciones que desea cifrar/descifrar su
+respectivo mensaje. En una caja de texto el usuario debo ingresar lo que desea encriptar y darle click a la opción
+de su preferencia.  
+
+<a href="https://ibb.co/fdNZfy"><img src="https://thumb.ibb.co/fdNZfy/screenshot_app.jpg" alt="screenshot_app" border="0"></a>
+
 
 ## Introducción
 
@@ -18,7 +23,7 @@ Alfabeto cifrado:	D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z A B C
 
 ## Funcionalidad 
 
-Consiste en 2 funciones que se invocan en el DOM a través de un objeto llamado Window.cipher. 
+    Consiste en 2 funciones que se invocan en el DOM a través de un objeto llamado Window.cipher. 
 La función _cipher.encode()_ usamos dos argumentos: 1.El mensaje que se desea cifrar (str) 2.Las posiciones que se 
 desea desplazar el cifrado (offset). Se usa un _for_ para obtener primero la posición de cada cáracter y luego el código
 ASCII que necesitamos cifrar con la función _charCodeAt(i)_ y se guarda en _let character_.
@@ -32,6 +37,7 @@ Para escuchar los eventos del DOM usamos la función _addEventListener('click')_
 
 ## Diseño
 
-Para el diseño se usa un background-image con una pizarra para simular que el mensaje cifrado/descifrado se imprimirá en la misma. La fuente de google font y se intento hacer un poco de responsive. 
+    Para el diseño se usa un background-image con una pizarra para simular que el mensaje cifrado/descifrado se imprimir
+en la misma. La fuente de google font y se intento hacer un poco de responsive. 
 
 
