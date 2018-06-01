@@ -10,27 +10,28 @@
 </head>
 
 <body>
-    <div id="root">
+    <div id="container">
         <h1>Caeser Cipher</h1>
         <div id="formulario">
             <form action="#" onsubmit="return false">
                 <div id="boxOne">
                     <label for="" id="question">¿Cuantas posiciones desea desplazar el cifrado?<abbr title="required">*</abbr></label><br/>
-                    <input id="offset" type="number" name="offset" placeholder="Ingrese valor" value="" min="0"><br/>
+                    <input id="offset" type="number" name="offset" value="" min="0"><br/>
                 </div>
                 <div id="boxTwo">
                     <input type="text" id="message" name="message" placeholder="Ingrese su mensaje">
                 </div>
-                <div id="boxThree">
-                    <span id="result"></span>
-                </div>
-                <div id="botones">
-                    <button class="boton" id="encode">Cifrar</button>
-                    <button class="boton" id="decode">Descifrar</button>
-                    <button type="reset" class="boton" id="clear">Borrar</button>
+                <div class="botones">
+                    <li><button class="boton" id="encode">Cifrar</button></li>
+                    <li><button class="boton" id="decode">Descifrar</button></li>
+                    <li><button type="reset" class="boton" id="clear">Borrar</button></li>
                 </div>
             </form>
+            <div id="boxThree">
+                <p id="result"></p>
+            </div>
         </div>
+
 
     </div>
     <script src="cipher.js"></script>
