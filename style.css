@@ -1,5 +1,10 @@
 /* Acá va tu código */
 
+#container {
+    width: 80%;
+    margin: auto;
+}
+
 body {
     background-image: url('img/background.jpg');
     background-size: cover;
@@ -9,11 +14,6 @@ body {
     background-position: center;
     position: relative;
     border: 0;
-}
-
-#root {
-    width: 100%;
-    margin: 0 auto;
 }
 
 h1 {
@@ -29,15 +29,18 @@ h1 {
     text-transform: uppercase;
 }
 
+li {
+    list-style: none;
+}
+
 .boton {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 10px 40px;
     color: #07BEB8;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.3em;
     font-family: 'Crushed', cursive;
-    display: inline-block;
     border-radius: 0.5em;
 }
 
@@ -55,11 +58,16 @@ h1 {
 }
 
 #offset {
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 4em;
+    width: 40px;
+    height: 30px;
+    text-align: center;
 }
 
 #boxTwo {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #message {
@@ -75,16 +83,23 @@ h1 {
     font-size: 2em;
 }
 
-#botones {
-    text-align: center;
-    margin-top: 60px;
+.botones {
+    float: right;
+}
+
+#encode {
+    margin-bottom: 2em;
+}
+
+#decode {
+    margin-bottom: 2em;
 }
 
 #boxThree {
-    width: 40vw;
-    height: 20vh;
     border: 2px solid white;
-    text-align: center;
-    margin-top: 3vw;
-    margin-left: 25rem;
+    width: 600px;
+    border-radius: 1em;
+    margin-left: 240px;
+    position: relative;
+    height: 24vh;
 }
