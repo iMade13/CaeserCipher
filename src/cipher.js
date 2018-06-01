@@ -11,7 +11,7 @@ window.cipher = ({
                 message += String.fromCharCode(((character - 97 + offset) % 26) + 97);
             } // para identificar las minísculas 
             else {
-                message += str.charAt(i); //para concatenar las letas
+                message += str.charAt(i); // para que nos devuelva un string 
             }
         }
         return message;
